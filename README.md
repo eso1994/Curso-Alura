@@ -1,6 +1,1 @@
-# Olá, Mundo!
- Aprendendo A Usar Git E Github.
-
-Fazendo as primeiras mudanças.
-
-Mudando dentro do site!!
+Repositório de testes e exercícios dos cursos da Alura.
