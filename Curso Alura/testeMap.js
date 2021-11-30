@@ -1,4 +1,4 @@
-//add 1 point for all the student's grades
+//add 1 point for each student's grades
 
 const grades = [10, 9, 7, 6]
 
