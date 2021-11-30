@@ -7,12 +7,12 @@ for (let i = 0; i < list.length; i++) {
 //add elements value and divide by number of list elements
 
 var schoolGrades = [6, 8.5, 8, 9.5]
-var media = 0;
+var average = 0;
 
 for (let i = 0; i < schoolGrades.length; i++){
-    media += schoolGrades[i];
+    average += schoolGrades[i];
 }
 
-media /= schoolGrades.length;
+average /= schoolGrades.length;
 
-console.log(media)
+console.log(average)
