@@ -6,7 +6,8 @@ const objPersonagem = {
       nome: "Saruman",
       classe: "mago"
     },
-    status: "desaparecido"
+    status: "desaparecido",
+    magias: ["proteção", "cura"]
    }
 
    /*delete objPersonagem.aliado
@@ -15,8 +16,10 @@ const objPersonagem = {
 
    delete objPersonagem["status"]
 
-   console.log(objPersonagem)*/
+   console.log(objPersonagem)
 
    delete objPersonagem.aliado["nome"]
 
-   console.log(objPersonagem)
+   console.log(objPersonagem)*/
+
+   objPersonagem.magias.forEach(magia => console.log(magia))
