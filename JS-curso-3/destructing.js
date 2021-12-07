@@ -73,4 +73,4 @@ function imprimeOsDados({nome, idade}){
     console.log(nome, idade)
 }
 
-imprimeOsDados(pessoa)
+imprimeOsDados(pessoa) 
