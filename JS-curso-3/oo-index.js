@@ -1,4 +1,4 @@
-import {Client} from "./Client.js";
+import {Client} from "./oo-Client.js";
 
 const client1 = new Client ("José Cristo", 63);
 
