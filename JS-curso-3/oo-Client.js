@@ -1,8 +1,8 @@
 export class Client {
     constructor(name, age){
-        this. name = name
-        this.age = age
-        this._balance = 0;
+        this. name = name,
+        this.age = age,
+        this._balance = 0
     }
     deposit(value){
         if(value <= 0) return;

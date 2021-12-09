@@ -4,7 +4,7 @@
   "description": "Repositório de testes e exercícios dos cursos da Alura.",
   "main": "oo-index.js",
   "scripts": {
-    "start": "node ./JS-curso-3/oo-index.js",
+    "start": "node ./oo-index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
