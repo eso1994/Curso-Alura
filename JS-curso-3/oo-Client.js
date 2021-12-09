@@ -2,7 +2,7 @@ export class Client {
     constructor(name, age){
         this. name = name
         this.age = age
-        this._balance = 1000;
+        this._balance = 0;
     }
     deposit(value){
         if(value <= 0) return;
@@ -18,5 +18,9 @@ export class Client {
     }
     balanceClient(){
         console.log(`Olá ${this.name}! Seu saldo atual é de ${this._balance} reais.`)
+    }
+    transfer(value, account){
+        this.withdraw(value);
+        account.deposit(value)
     }
 }
