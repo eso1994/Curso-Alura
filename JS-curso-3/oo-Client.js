@@ -2,8 +2,12 @@ export class Client {
     constructor(name, age){
         this. name = name,
         this.age = age,
-        this._balance = 0
+        this._balance = 0,
+        Client.accountNumbers += 1
     }
+
+    static accountNumbers = 0;
+    
     deposit(value){
         if(value <= 0) return;
         this._balance += value;

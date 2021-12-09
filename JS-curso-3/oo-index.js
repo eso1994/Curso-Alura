@@ -9,3 +9,5 @@ client1.transfer(50, client2);
 client2.balanceClient();
 client1.balanceClient();
 
+console.log(Client.accountNumbers)
+
