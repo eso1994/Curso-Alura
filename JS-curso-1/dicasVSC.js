@@ -1,7 +1,7 @@
-let teste = ["olá, mundo", "Hi, world"];
+let testes = ["olá, mundo", "Hi, world"];
 
-for (let i = 0; i < teste.length; i++) {
-    console.log(teste[i])
+for (let i = 0; i < testes.length; i++) {
+    console.log(testes[i])
 
 }
 // usando o atalho ctrl + shift + L, consigo selecionar todas as ocorrencias daquela instancia! Ao selecionar a variavel teste e usar o atalho, todas as "teste" serão selecionadas tambem.
