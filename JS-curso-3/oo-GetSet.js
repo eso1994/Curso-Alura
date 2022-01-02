@@ -14,7 +14,7 @@ class Boletim{
 }
 
 const aluno2231 = new Boletim(5, 5, 10, null)
-// aluno2231.notEx = 4
+aluno2231.notEx = 4
 
 console.log(aluno2231.media)
 
