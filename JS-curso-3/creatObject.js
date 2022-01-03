@@ -16,7 +16,7 @@ Because the 2º is just a reference not a copy
 If we want to make a copy, we must use the Object.create method*/
 
 const objPersonagem2 = Object.create(objPersonagem);
-objPersonagem2.nome = "Gandalf, o cinzento";
+//objPersonagem2.nome = "Gandalf, o cinzento";
 
-console.log(objPersonagem.nome)
-console.log(objPersonagem2.nome)
+console.log(objPersonagem)
+console.log(objPersonagem2)
