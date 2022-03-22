@@ -13,41 +13,17 @@ function extraiLinks(textao){
     while((temp = regex.exec(textao)) !== null) {
         arrayResult.push({ [temp[1]]: temp[2] })
     }
-    return arrayResult
+    return arrayResult.length === 0 ? 'não há links' : arrayResult
 }
 
 async function pegaArquivo(caminhoDoArquivo){
     const encoding = 'utf-8'
     try {
         const texto = await fs.promises.readFile(caminhoDoArquivo, encoding)
-        console.log(extraiLinks(texto))
+        return extraiLinks(texto)
     } catch(erro){
         trataErro(erro)
     }
 }
 
-
-
-// const pegaArquivo = (caminhoDoArquivo) => {
-//     const encoding = 'utf-8'
-//     fs.promises
-//         .readFile(caminhoDoArquivo, encoding)
-//         .then((texto) => console.log(chalk.yellow(texto)))
-//         .catch((erro) => trataErro(erro))
-// }
-
-
-
-
-// function pegaArquivo(caminhoDoArquivo){
-//     const encoding = 'utf-8'
-//     fs.readFile(caminhoDoArquivo, encoding, (err, texto) => {
-//         if(err){
-//             trataErro(err)
-//         } else {
-//             console.log(chalk.green(texto))
-//         }
-//     })
-//}
-
-pegaArquivo('./LIB-MARKDOWN/arquivos/arquivos/texto1.md')
+module.exports = pegaArquivo
