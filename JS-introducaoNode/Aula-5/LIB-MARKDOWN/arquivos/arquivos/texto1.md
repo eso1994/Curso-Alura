@@ -1,1 +1,0 @@
-[Mermão] (https://www.dicionarioinformal.com.br/merm%C3%A3o/) ce ta maluco nao é que essa porra funciona mesmo ce ta doido nunca imaginei que rolava dessa maneira ce ta locoooo de [pao_de_queijo] (https://www.panelinha.com.br/receita/Pao-de-queijo) 
